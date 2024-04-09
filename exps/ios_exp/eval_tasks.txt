@@ -1,0 +1,52 @@
+Open Settings
+Open News
+Open the app Watch
+Open the Settings and open settings for Safari
+Find the nearest gas station on Map
+Create a reminder of "make dinner"
+Create a reminder of "grocery"
+Create a reminder of "finish homework"
+Send a message to Kate with "Hi"
+Send a message to John Appleseed with "How are you doing"
+Find the nearest gas station with Maps
+Use Maps to find the nearest Target
+Use Maps to find the nearest CVS
+Use Contacts to find John Appleseed's birthday
+Use Contacts to find Kate Bell's phone number
+Find Anna Haro's phone number with the Contacts app
+Find the app Freeform and open it
+Find the app Shortcuts and open it
+Open Settings and open About page
+Find John Appleseed's phone number with contacts
+Find Kate Bell's phone number with contacts
+Show me an image in Photos
+Show me all images in Photos
+Open maps for me
+add a reminder to make dinner
+add a reminder to do grocery
+find the nearest Nike store on maps
+send a message to Kate Bell with the message app
+send a message to John with message app
+find the nearest metro station on maps
+Use Contacts to check out John Appleseed's home address
+Open the Settings and open Accessibility
+Find the Model Number of this device
+Disable Character Preview for Keyboard in Settings
+Change Safari Search Engine to DuckDuckGo in Settings
+Change the preferred language of Safari to Turkish in Settings
+Change the preferred type of travel of Maps to Walking in Settings
+Disable Siri's access to Photos in Settings
+Create a reminder of "Christmax gift for Kitty"
+Use the Reminders app to set a reminder for "Finish homework" for tomorrow.
+Send a message to John say "How are you doing?"
+Show me all the images I have in Photos
+Show me the photos in the album "Favorite"
+Use Maps to find the nearest Burger King.
+Create an event called "dinner" on calendar for tomorrow
+Create an event called "Meeting" on calendar for today 1pm
+Use the Contacts app to find John Appleseed's phone number.
+Use the Contacts app to find Kate Bell's birthday.
+Use the Contacts app to find Anna Haro's address.
+Create a new Contact called Simon with phone number 1234-5678.
+Use the Calendar app to add a new all-day event called "On Vacation" for today.
+Open Safari and show me UC Berkeley's wikipedia page.

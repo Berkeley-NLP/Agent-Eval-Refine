@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=3,4 python main.py \
+    --data_root /home/jiayipan/code/ICML_GUI/Auto-UI/weights/blip/general_blip \
+    --model declare-lab/flan-alpaca-base \
+    --epoch 10 --lr 1e-4 \
+    --user_msg seq_future_blip_axis_all0.1_hist8_future4 --img_type blip --img_dim 1408 \
+    --bs 4 --eval_bs 16 --input_len 512 --output_len 128 --eval_acc 40 \
+    --transform_axis --warmup_ratio 0.05 \
+    --use_history 8 \
+    --use_future 4 \
+    --eval_name general \
+    --evaluate_dir Auto-UI-Base
