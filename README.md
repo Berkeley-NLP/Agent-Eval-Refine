@@ -3,7 +3,7 @@
   <h1 align="center">Autonomous Evaluation and Refinement of Digital Agents</h1>
 </div>
 
-### [Paper Release on Tuesday Afternoon]() | [Data and Models](https://huggingface.co/agent-eval-refine)
+### [Paper](https://arxiv.org/abs/2404.06474) | [Data and Models](https://huggingface.co/agent-eval-refine)
 
 [Jiayi Pan](https://www.jiayipan.me/), [Yichi Zhang](https://sled.eecs.umich.edu/author/yichi-zhang/), [Nicholas Tomlin](https://people.eecs.berkeley.edu/~nicholas_tomlin/), [Yifei Zhou](https://yifeizhou02.github.io/), [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/), [Alane Suhr](https://www.alanesuhr.com/)
 
@@ -28,8 +28,8 @@ In this study, we design and use evaluation models to both evaluate and autonomo
 
 The evaluator and evaluation code is provided in `./agent_eval/` folder. You can use these models, either open weight or GPT-4V-based, to evaluate the performance of digital agents. Please refer to the [Evaluation](#Evaluation) section for more details.
 
-The refinement and the ios/android emulator code is provided in `./exps/` folder. It provides examples to execute a variety of agents on WebArena/Android/iOS.  Notably,
-- Reflexion agent which achieves 20.2% on WebArena and is current state-of-the-art. 
+The refinement and the ios/android emulator code is provided in `./exps/` folder. It provides examples to execute/improve a variety of agents on WebArena/Android/iOS.  Notably,
+- Reflexion + GPT-4 agent which achieves 20.2% on WebArena and is current state-of-the-art. 
 - Refined CogAgent model which achieves 75% relative improvement in success rate on iOS. 
 - A Python binding for iOS and Android emulator to facilitate refinement and end-to-end evaluation of digital agents.
 
