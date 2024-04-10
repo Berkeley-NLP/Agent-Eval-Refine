@@ -110,5 +110,12 @@ You can download all agent trajectories used in the experiment from [this link](
 Please consider citing our paper if you find this project helpful for your research:
 
 ```bibtex
-TODO
+@misc{pan2024autonomous,
+      title={Autonomous Evaluation and Refinement of Digital Agents}, 
+      author={Jiayi Pan and Yichi Zhang and Nicholas Tomlin and Yifei Zhou and Sergey Levine and Alane Suhr},
+      year={2024},
+      eprint={2404.06474},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
 ```
