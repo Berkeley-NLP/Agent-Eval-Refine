@@ -19,7 +19,7 @@ def query_anyscale_api(messages, model, temperature=0):
     # Set the base URL and API key for the OpenAI API
     try:
         base_url = "https://api.endpoints.anyscale.com/v1"
-        api_key = "esecret_xv1c6k71xizxxpxed457wgwlib"
+        api_key = ""
 
         # Endpoint for chat completions
         url = f"{base_url}/chat/completions"
