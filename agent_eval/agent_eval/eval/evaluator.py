@@ -77,6 +77,23 @@ class Evaluator:
         msg_dict = json.loads(msg_str)
         return msg_dict, msg_str, prompt
 
+    def final_eval_v3(self, info, client):
+        response = info["response"] if info["response"] else "None"
+        lm_client = self.lm_clients[client]
+        action_history = ""
+        for idx, act in enumerate(info["actions"]):
+            action_history += f"{idx+1}: {act}\n"
+        prompt, sys_msg = build_final_eval_v3_final_prompt(
+            info["captions"][-1], info["intent"], response, action_history
+        )
+        # lm_client = self.lm_clients["gpt-4"]
+        msg_str, _ = lm_client.one_step_chat(prompt, system_msg=sys_msg)
+        msg_dict = {
+            "thoughts": extract_content(msg_str, "Thoughts:"),
+            "status": extract_content(msg_str, "Status:").replace('"', ""),
+        }
+        return msg_dict, msg_str, prompt
+
     def final_eval_v3_gpt4v(self, info, client):
         assert client == "gpt-4v"
         action_history = ""
