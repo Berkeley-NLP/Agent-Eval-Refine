@@ -37,6 +37,11 @@ Please refer to the [Refinement](#Refinement) section for more details.
 
 We release all models, agent trajectories and dataset on [Huggingface Hub](https://huggingface.co/Agent-Eval-Refine).
 
+## News
+- July. 10. 2024: The paper is accepted at COLM 2024.
+- June. 14. 2024: We release [DigiRL](https://digirl-agent.github.io/).
+Our 2B VLM, when post-trained with an autonomous evaluator (reward model), improves its success rate on Android device-control tasks from 17% to 67%.
+
 ## Evaluation <a name="Evaluation"></a>
 **Setup**
 
