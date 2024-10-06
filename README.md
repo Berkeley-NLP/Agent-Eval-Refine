@@ -110,6 +110,9 @@ You can download all agent trajectories used in the experiment from [this link](
 - The tasks we used are listed in `exps/android_exp/assets/instructions.txt`
 - Please refer to [`exps/android_exp/README.md`](exps/android_exp/README.md) for more details on how to reproduce the results.
 
+### Filtered-BC Refinement on Android
+- We share the codebase with [DigiRL](https://github.com/DigiRL-agent/digirl) for this part of experiment. 
+
 
 ## Citation <a name="citation"></a>
 Please consider citing our paper if you find this project helpful for your research:
