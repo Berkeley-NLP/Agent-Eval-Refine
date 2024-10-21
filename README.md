@@ -9,6 +9,8 @@
 
 UC Berkeley, University of Michigan
 
+COLM 2024 /  MAR Workshop CVPR 2024 Best Paper
+
 <!-- 
 ## Contents:
 1. [Getting Started](#start)
