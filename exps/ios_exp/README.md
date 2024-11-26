@@ -21,7 +21,7 @@ Setup the ios emulator (Apple devices required)
 **Inference Server for CogAgent**
 1. Visit [CogAgent's Official Repo](https://github.com/THUDM/CogVLM) and follow the instructions to install the dependencies.
 2. Copy `models/CogAgent/web_demo_simple.py` from current folder into `CogVLM/basic_demo/` folder.
-3. Run `python web_demo_simple.py` to start the server.
+3. Run `python web_demo_simple.py --fp16` to start the server.
 
 **Run the Agent on IOS to Collect Trajectories**
 ```
